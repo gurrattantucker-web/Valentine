@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Hiii Sonal i wanted to ask you something, will you be my valentine week partner??
+    </title>
+
+    <!-- SATISFY FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+            background:#2b0f14;
+            color:white;
+            text-align:center;
+            padding-top:80px;
+            font-family:'Satisfy', cursive;
+            overflow:hidden;
+        }
+
+        /* Title center fix */
+        h1 {
+            text-align:center;
+            width:80%;
+            margin:0 auto;
+            line-height:1.4;
+            font-size:42px;
+        }
+
+        /* Fade + slide animation */
+        .fade-in {
+            opacity:0;
+            transform:translateY(30px);
+            animation:fadeSlide 1.5s ease forwards;
+        }
+
+        .delay-1 { animation-delay:0.3s; }
+        .delay-3 { animation-delay:0.9s; }
+
+        @keyframes fadeSlide {
+            to {
+                opacity:1;
+                transform:translateY(0);
+            }
+        }
+
+        /* Cute image pop */
+        .pop {
+            animation:pop 1.2s ease forwards;
+        }
+
+        @keyframes pop {
+            0% { transform:scale(0.6); opacity:0; }
+            60% { transform:scale(1.05); }
+            100% { transform:scale(1); opacity:1; }
+        }
+
+        /* Equal button style */
+        .action-btn {
+            width:130px;
+            padding:15px 0;
+            font-size:22px;
+            border-radius:20px;
+            cursor:pointer;
+            font-family:'Satisfy', cursive;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- IMAGE -->
+    <img 
+        src="https://media.tenor.com/ffG8ZgTeQ74AAAAm/peach-and-goma-cute.webp"
+        alt="Cute Animation"
+        class="pop"
+        style="display:block; margin:0 auto 20px auto; width:200px;"
+    >
+
+    <h1 class="fade-in delay-1">
+        Hiii Sonal i wanted to ask you something,<br>
+        will you be my valentine week partner??
+    </h1>
+
+    <br><br>
+
+    <div class="fade-in delay-3">
+
+        <a href="/rose2.html">
+            <button class="action-btn">YES</button>
+        </a>
+
+        <a href="/no.html">
+            <button class="action-btn" style="margin-left:20px;">
+                NO
+            </button>
+        </a>
+
+    </div>
+
+</body>
+</html>
